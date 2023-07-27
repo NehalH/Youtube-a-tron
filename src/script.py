@@ -50,5 +50,5 @@ def download_top_videos(subreddit_name, output_folder):
 
 if __name__ == "__main__":
     subreddit_name = "nextfuckinglevel"  # Replace this with the subreddit of your choice
-    output_folder = "N:/Box/WorkSpace/Project/praw test/downloaded_media" 
+    output_folder = "./downloads" 
     download_top_videos(subreddit_name, output_folder)
