@@ -12,7 +12,7 @@ def download_top_videos(subreddit_name, output_folder):
 
 
     subreddit = reddit.subreddit(subreddit_name)
-    top_posts = subreddit.top(limit=1, time_filter='all')  # Fetch top 100 posts of all time
+    top_posts = subreddit.top(limit=20, time_filter='all')  # Fetch top 100 posts of all time
 
     # Create the output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)
